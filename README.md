@@ -8,13 +8,13 @@
 
 效果图：
 ##主页面：
-[index](https://github.com/jjc123/Novel-website/blob/master/images/Display%20diagram/index.png?raw=true)
+![index](https://github.com/jjc123/Novel-website/blob/master/images/Display%20diagram/index.png?raw=true)
 
 ##注册页面：
-[register](https://github.com/jjc123/Novel-website/blob/master/images/Display%20diagram/a%20part.png?raw=true)
+![register](https://github.com/jjc123/Novel-website/blob/master/images/Display%20diagram/a%20part.png?raw=true)
 
 ##小说页面：
-[a part](https://github.com/jjc123/Novel-website/blob/master/images/Display%20diagram/register.png?raw=true)
+![a part](https://github.com/jjc123/Novel-website/blob/master/images/Display%20diagram/register.png?raw=true)
 
 
 
