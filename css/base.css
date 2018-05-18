@@ -1,0 +1,92 @@
+@charset "utf-8";
+body { margin:0px auto; font:12px/150% arial, "宋体", helvetica, clean, sans-serif; color:#333;
+}
+td {
+	font: 12px/150% "宋体",arial , helvetica, clean, sans-serif;
+}
+select {
+	font-size: 12px;
+}
+input {
+	font-size: 12px;
+	border:#cccccc solid 1px;
+}
+textarea {
+	font-size: 12px;
+	border:#cccccc solid 1px;
+}
+span i{
+	font-weight:bold;
+	font-size:20px;
+	color:#ff9955;
+}
+span b{
+	font-weight:bold;
+	font-size:15px;
+	color:#ff9955;
+}
+
+ul {
+	padding:0px; margin:0px; 
+}
+ol {
+	padding:0px; margin:0px; 
+}
+li {
+	padding:0px; margin:0px;  vertical-align:bottom;
+}
+dl {
+	padding:0px; margin:0px; 
+}
+dt {
+	padding:0px; margin:0px; 
+}
+dd {
+	padding:0px; margin:0px;
+}
+form {
+	ppadding:0px; margin:0px; 
+}
+table{
+	 width:80%;
+	 margin:0px auto;  /* 设置表格在网页居中 */
+	 text-align:center; /* 设置表格的内容居中 */
+	 border-collapse:collapse; /* 设置表格内所有边框线重叠，即只显示一条线 */
+ }
+table tr td{
+    padding:0px;   /* 设置单元格的边线与内容直接的距离为5像素 */
+	margin:0px;  /* 设置两个单元格之间的的距离为0像素 */
+	
+}
+
+p {
+	margin: 5px 0px 15px;
+	font:  clean, sans-serif; color:#333;
+}
+ul {
+	list-style-type:none; list-style-image:none;
+}
+li {
+	list-style-type:none; list-style-image:none;
+}
+img {
+	border-bottom:0px; border-left:0px; border-top:0px; border-right:0px;
+}
+a {
+	 vertical-align:baseline;text-decoration:none;
+}
+a:link {
+	color:#000; 
+}
+a:visited {
+	color:#333; 
+}
+a:active {
+	color:#000; 
+}
+a:hover {
+	color:#FFFFFF; 
+}
+.clear {
+	clear: both; line-height:0px; font-size:0px; zoom:1; height:0px; display:block; width:100%; overflow:hidden; 
+}

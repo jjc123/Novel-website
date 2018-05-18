@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册页面</title>
+<style type="text/css">
+body
+{ 
+background-image: url('images/Others/back.jpg');
+background-repeat: repeat;
+}
+</style>
+</head>
+<body>
+        
+        <form name="form" id="form" action="" method="post" enctype="multipart/form-data" >
+            <p align="center"><h1>注册浩瀚中文网账号</h1></p>
+            <h6><label for="nickname">昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：</label>
+              <input type="text" name="nickname" size="15"/>
+              <font color="red"> *</font>
+            </h6>
+            <h6>
+               <label for="pw1">登录密码</label>
+                <input type="password" name="pw1" size="15"/>
+                <font color="red">*</font>
+           </h6>
+            <h6> <label for="pw2">确认密码</label>
+                <input type="password" name="pw2" size="15"/>
+                <font color="red">*</font>
+          </h6>
+            <h6>性别
+              <input type="radio" name="sex" id="radio" value="male" checked="checked" />
+              <label for="sex">男</label>
+              <input type="radio" name="sex" id="radio" value="female" />
+              <label for="sex">女</label>
+            </h6>
+            <h6>籍贯：
+                <select name="area">
+                    <option value="">请选择</option>
+                    <option value="yantai"> 北京</option>
+                    <option value="jinan">济南</option>
+                    <option value="qingdao">青岛</option>
+                    <option value="weifang">潍坊</option>
+                    <option value="zibo">淄博</option>
+                    <option value="jining">济宁</option>
+                    <option value="liaocheng">聊城</option>
+                    <option value="binzhou">滨州</option>
+                    <option value="zaozhuang">枣庄</option>
+                    <option value="rizhao">日照</option>
+                    <option value="weihai">威海</option>
+                    <option value="qufu">曲阜</option>
+                    <option value="taian">泰安</option>
+                    <option value="heze">菏泽</option>
+                    <option value="linyi">临沂</option>
+                </select>
+            </h6>
+            <h6>选择头像：
+                <input type="radio" name="header" value="pic1"/>
+                    <img src="images/Others/1.jpg" width="50" height="50"/>
+                <input type="radio" name="header" value="pic2"/>
+                    <img src="images/Others/2.jpg" width="50" height="50"/>
+                <input type="radio" name="header" value="pic3"/>
+                    <img src="images/Others/3.jpg" width="50" height="50"/>
+                <input type="radio" name="header" value="pic4"/>
+                    <img src="images/Others/4.jpg" width="50" height="50"/>
+                <input type="radio" name="header" value="pic5"/>
+                  <img src="images/Others/5.jpg" width="50" height="50"/>
+            </h6>
+            <h6>
+              <label for="jianli">上传简历</label>
+              <input type="file" name="jianli" id="jianli" />
+            </h6>
+            <h6>
+             <label for="email">填写邮箱</label>
+                <input type="text" name="email" id="email"/>
+                <font color="red">*</font>
+            </h6>
+            <h6>个人简介:</p>
+            <h6>
+                <textarea name="content" rows="5" cols="55">
+                    请在此输入个人简介
+                </textarea>
+            </h6>
+            <h6>说明：
+                <font color="red">*</font>号为必填项
+            </h6>
+            <h6 align="center">
+                <input type="submit" name="submit" value="注册"/>
+                <input type="reset" name="reset" value="取消"/>
+            </h6>
+</form>
+</body>
+</html>
